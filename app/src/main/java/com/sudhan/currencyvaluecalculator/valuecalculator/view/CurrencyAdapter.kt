@@ -22,7 +22,7 @@ import java.lang.Exception
 class CurrencyAdapter(var iValueCalculatorPresenter: IValueCalculatorPresenter, var ratesMap: LinkedHashMap<String, Double>) : RecyclerView.Adapter<CurrencyAdapter.Companion.MyViewHolder>() {
 
     private val flagAndCurrencyMap = iValueCalculatorPresenter.onGetFlagAndCurrencyMap()
-    private var doNotifiyBaseAdapter = false
+//    private var doNotifiyBaseAdapter = false
 
     companion object {
         class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -70,13 +70,14 @@ class CurrencyAdapter(var iValueCalculatorPresenter: IValueCalculatorPresenter, 
         }
 
         holder.relRoot.setOnClickListener {
-            doNotifiyBaseAdapter = true
+//            doNotifiyBaseAdapter = true
+            iValueCalculatorPresenter.onDisposeApiCall()
             iValueCalculatorPresenter.onChangeBaseCurrency(currencyList.get(position), valueList.get(position))
         }
 
         holder.edtEquivalentAmount.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                doNotifiyBaseAdapter = false
+//                doNotifiyBaseAdapter = false
             }
 
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
@@ -97,7 +98,7 @@ class CurrencyAdapter(var iValueCalculatorPresenter: IValueCalculatorPresenter, 
         })
     }
 
-    fun updateCurrencyValue(updatedRatesMap: LinkedHashMap<String, Double>) {
+    fun updateCurrencyValue(updatedRatesMap: LinkedHashMap<String, Double>, doNotifiyBaseAdapter: Boolean) {
         ratesMap = updatedRatesMap
         if (doNotifiyBaseAdapter)
             notifyDataSetChanged()

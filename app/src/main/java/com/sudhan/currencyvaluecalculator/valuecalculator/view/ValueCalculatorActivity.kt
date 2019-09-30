@@ -24,6 +24,7 @@ class ValueCalculatorActivity : AppCompatActivity(), IValueCalculatorView {
     lateinit var btnRetry: Button
     lateinit var iValueCalculatorPresenter: IValueCalculatorPresenter
     var currencyAdapter: CurrencyAdapter? = null
+    var doNotifyBaseAdapter = false
     var baseCurrency = "EUR"
     var baseAmount = 100.00
 
@@ -63,7 +64,8 @@ class ValueCalculatorActivity : AppCompatActivity(), IValueCalculatorView {
             rvRates.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
             rvRates.adapter = currencyAdapter
         } else{
-            currencyAdapter!!.updateCurrencyValue(ratesMap)
+            currencyAdapter!!.updateCurrencyValue(ratesMap, doNotifyBaseAdapter)
+            doNotifyBaseAdapter = false
         }
     }
 
@@ -71,6 +73,7 @@ class ValueCalculatorActivity : AppCompatActivity(), IValueCalculatorView {
         progressBar.visibility = View.VISIBLE
         baseCurrency = currency
         baseAmount = amount
+        doNotifyBaseAdapter = true
         val linearLayoutManager = rvRates.layoutManager as LinearLayoutManager
         linearLayoutManager.scrollToPositionWithOffset(0, 0)
     }
