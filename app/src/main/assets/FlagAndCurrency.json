@@ -1,0 +1,136 @@
+{
+  "currency_and_flag": {
+    "EUR": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/European-512.png",
+      "currency_full_name": "Euro"
+    } ,
+    "AUD": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/international-circular-flags/512/australia_australian_aussie_national_country_flag-512.png",
+      "currency_full_name": "Australian Dollar"
+    } ,
+    "BGN": {
+      "flag": "https://cdn3.iconfinder.com/data/icons/world-flags-circular-1/512/85-Bulgaria_Bulgarian_lev_Sofia_BGR_country_flag_-512.png",
+      "currency_full_name": "Bulgarian Lev"
+    },
+    "BRL": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/america-asia-oceania-africa-3/100/Brazil-512.png",
+      "currency_full_name": "Brazilian Real"
+    },
+    "CAD": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/america-asia-oceania-africa-3/100/Canada-512.png",
+      "currency_full_name": "Canadian Dollar"
+    } ,
+    "CHF": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/major-world-flags-1/512/switzerland_swiss_flag_circle-512.png",
+      "currency_full_name": "Swiss Franc"
+    } ,
+    "CNY": {
+      "flag": "https://cdn4.iconfinder.com/data/icons/flat-circle-flag/182/circle_flag_china-512.png",
+      "currency_full_name": "Yuan Renminbi"
+    },
+    "CZK": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/Czech-512.png",
+      "currency_full_name": "Czech Koruna"
+    },
+    "DKK": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/major-world-flags-1/512/denmark_flag_circle-512.png",
+      "currency_full_name": "Danish Krone"
+    } ,
+    "GBP": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/major-world-flags-1/512/uk_britain_united_kingdom-512.png",
+      "currency_full_name": "Pound Sterling"
+    } ,
+    "HKD": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/america-asia-oceania-africa-3/100/Hong_Kong-512.png",
+      "currency_full_name": "Hong Kong Dollar"
+    },
+    "HRK": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/Croatia-512.png",
+      "currency_full_name": "Kuna"
+    },
+    "HUF": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/Hungary-512.png",
+      "currency_full_name": "Forint"
+    } ,
+    "IDR": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/america-asia-oceania-africa-3/100/indonesia-512.png",
+      "currency_full_name": "Rupiah"
+    } ,
+    "ILS": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/glossy-circular-world-flags/180/israel-flag-nation-country-512.png",
+      "currency_full_name": "New Israeli Sheqel"
+    },
+    "INR": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/international-circular-flags/512/india_indian_national_country_flag-512.png",
+      "currency_full_name": "Indian Rupee"
+    },
+    "ISK": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/national-flags-of-european-countries/1024/2018_12_15_iceland-512.png",
+      "currency_full_name": "Iceland Krona"
+    } ,
+    "JPY": {
+      "flag": "https://cdn4.iconfinder.com/data/icons/flat-circle-flag/182/circle_flag_japan-512.png",
+      "currency_full_name": "Yen"
+    } ,
+    "KRW": {
+      "flag": "https://cdn0.iconfinder.com/data/icons/world-flags-1/100/south_korea-2-512.png",
+      "currency_full_name": "Won"
+    },
+    "MXN": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/major-world-flags-1/512/mexico_flag_circle-512.png",
+      "currency_full_name": "Mexican Peso"
+    },
+    "MYR": {
+      "flag": "https://cdn1.iconfinder.com/data/icons/asia-country-flags/103/MALAYSIA-512.png",
+      "currency_full_name": "Malaysian Ringgit"
+    } ,
+    "NOK": {
+      "flag": "https://cdn0.iconfinder.com/data/icons/european-flags-3/100/Norway_Svalbard-512.png",
+      "currency_full_name": "Norwegian Krone"
+    } ,
+    "NZD": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/america-asia-oceania-africa-3/100/new_zealand-512.png",
+      "currency_full_name": "New Zealand Dollar"
+    },
+    "PHP": {
+      "flag": "https://cdn3.iconfinder.com/data/icons/world-flags-circular-1/512/108-Philippines_Philippine_PHL_Asia_Asian_country_flag_-512.png",
+      "currency_full_name": "Philippine Peso"
+    },
+    "PLN": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/Poland-512.png",
+      "currency_full_name": "Zloty"
+    } ,
+    "RON": {
+      "flag": "https://cdn3.iconfinder.com/data/icons/50-flags-of-the-world-circular-shape/60/Circular_world_Flag_28-512.png",
+      "currency_full_name": "Romanian Leu"
+    } ,
+    "RUB": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/Russian-512.png",
+      "currency_full_name": "Russian Ruble"
+    },
+    "SEK": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/Sweden-512.png",
+      "currency_full_name": "Swedish Krona"
+    },
+    "SGD": {
+      "flag": "https://cdn3.iconfinder.com/data/icons/50-flags-of-the-world-circular-shape-2/60/Circular_world_Flag_140-512.png",
+      "currency_full_name": "Singapore Dollar"
+    } ,
+    "THB": {
+      "flag": "https://cdn3.iconfinder.com/data/icons/50-flags-of-the-world-circular-shape/60/Circular_world_Flag_29-512.png",
+      "currency_full_name": "Baht"
+    } ,
+    "TRY": {
+      "flag": "https://cdn2.iconfinder.com/data/icons/european-flags-3/100/Turkey-512.png",
+      "currency_full_name": "Turkish Lira"
+    },
+    "USD": {
+      "flag": "https://cdn3.iconfinder.com/data/icons/50-flags-of-the-world-circular-shape-2/60/Circular_world_Flag_145-512.png",
+      "currency_full_name": "US Dollar"
+    },
+    "ZAR": {
+      "flag": "https://cdn3.iconfinder.com/data/icons/50-flags-of-the-world-circular-shape-2/60/Circular_world_Flag_117-512.png",
+      "currency_full_name": "Rand"
+    }
+  }
+}
