@@ -4,11 +4,9 @@ import android.os.Handler
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
-import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.RelativeLayout
@@ -22,7 +20,6 @@ import java.lang.Exception
 class CurrencyAdapter(var iValueCalculatorPresenter: IValueCalculatorPresenter, var ratesMap: LinkedHashMap<String, Double>) : RecyclerView.Adapter<CurrencyAdapter.Companion.MyViewHolder>() {
 
     private val flagAndCurrencyMap = iValueCalculatorPresenter.onGetFlagAndCurrencyMap()
-//    private var doNotifiyBaseAdapter = false
 
     companion object {
         class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -70,18 +67,15 @@ class CurrencyAdapter(var iValueCalculatorPresenter: IValueCalculatorPresenter, 
         }
 
         holder.relRoot.setOnClickListener {
-//            doNotifiyBaseAdapter = true
             iValueCalculatorPresenter.onDisposeApiCall()
             iValueCalculatorPresenter.onChangeBaseCurrency(currencyList.get(position), valueList.get(position))
         }
 
         holder.edtEquivalentAmount.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-//                doNotifiyBaseAdapter = false
             }
 
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-
             }
 
             override fun afterTextChanged(p0: Editable?) {
