@@ -75,7 +75,7 @@ class ValueCalculatorPresenter(var iValueCalculatorView: IValueCalculatorView): 
     }
 
     override fun onRoundCurrencyValue(amount: Double): String {
-        val decimalFormatter = DecimalFormat("###,###,###.###")
+        val decimalFormatter = DecimalFormat("#.###")
         return decimalFormatter.format(amount)
     }
 }
